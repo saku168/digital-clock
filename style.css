@@ -1,1 +1,8 @@
-*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;background:linear-gradient(135deg,#101827,#243b55);font-family:Arial,sans-serif;color:#fff}.clock-card{text-align:center;padding:48px 36px;border:1px solid #ffffff30;border-radius:24px;background:#ffffff12;box-shadow:0 20px 60px #0004}.eyebrow{letter-spacing:4px;color:#9fb8d5;font-size:.8rem}h1{font-size:clamp(3rem,10vw,6rem);margin:18px 0;font-variant-numeric:tabular-nums}#date{color:#c7d5e5}
+*{box-sizing:border-box}
+:root{color-scheme:dark;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px;background:radial-gradient(circle at 20% 15%,#294b70 0,transparent 35%),linear-gradient(135deg,#0b1220,#172b43 60%,#101827);color:#f8fbff}
+.clock-card{width:min(720px,100%);padding:clamp(30px,7vw,64px) 24px;text-align:center;border:1px solid #ffffff24;border-radius:30px;background:linear-gradient(145deg,#ffffff18,#ffffff08);box-shadow:0 28px 80px #0006;backdrop-filter:blur(18px)}
+.eyebrow{margin:0;color:#9fc5eb;font-size:.75rem;font-weight:800;letter-spacing:.28em}
+h1{margin:22px 0;font-size:clamp(3.2rem,13vw,7.5rem);line-height:1;font-weight:750;letter-spacing:-.07em;font-variant-numeric:tabular-nums;text-shadow:0 8px 35px #4a9bdf55}
+#date{margin:0;color:#c6d8eb;font-size:clamp(.95rem,3vw,1.2rem)}
+@media(max-width:420px){.clock-card{border-radius:22px}}
