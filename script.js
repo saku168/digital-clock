@@ -1,0 +1,1 @@
+const clock=document.querySelector("#clock");const date=document.querySelector("#date");function updateClock(){const now=new Date();clock.textContent=now.toLocaleTimeString("fr-FR");date.textContent=now.toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});}updateClock();setInterval(updateClock,1000);
